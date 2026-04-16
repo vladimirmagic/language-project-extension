@@ -1,0 +1,1 @@
+export const YOUTUBE_SHOW_TOOLTIP_KEY = 'langPopupShow';

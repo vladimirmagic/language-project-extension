@@ -1,0 +1,1 @@
+export const TEXT_NO_EMBED_VIDEO_WARINIG = 'This video can\'t be added to Langmagic because it isn\'t embeddable.'
