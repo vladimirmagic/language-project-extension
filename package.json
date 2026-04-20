@@ -1,13 +1,10 @@
 {
-  "name": "language-project",
+  "name": "language-project-extension",
   "version": "1.6.0",
   "description": "",
   "scripts": {
-    "dev": "clap buildBackendDev && clap startDevServer",
-    "build-plugin-dev": "clap buildPluginDev",
-    "build-plugin-prod": "clap buildPluginProd",
-    "build-plugin-test": "clap buildPluginTest",
-    "build-plugin-release": "cross-env LANG_PROJECT_BUILD_RELEASE=1 clap buildPluginProd",
+    "build-dev": "clap buildPluginDev",
+    "build-prod": "clap buildPluginProd",
     "generate": "plop",
     "lint": "tslint -p ./tsconfig.json"
   },
